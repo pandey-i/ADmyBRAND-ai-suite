@@ -8,7 +8,7 @@ import heroImage from "@/assets/hero-dashboard.jpg"
 
 export const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 md:pt-24">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-32 md:pt-24">
       {/* Starry Background */}
       <StarryBackground />
       
