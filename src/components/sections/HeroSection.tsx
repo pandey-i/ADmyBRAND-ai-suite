@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/enhanced-button"
 import { GradientText } from "@/components/ui/gradient-text"
 import { ScrollReveal } from "@/components/ui/scroll-reveal"
-import { TypingEffect } from "@/components/ui/typing-effect"
+import { CyclingTypingEffect } from "@/components/ui/cycling-typing-effect"
 import { StarryBackground } from "@/components/ui/starry-background"
 import { ArrowRight, Play, Star } from "lucide-react"
 import heroImage from "@/assets/hero-dashboard.jpg"
@@ -37,18 +37,20 @@ export const HeroSection = () => {
 
             <ScrollReveal direction="up" delay={400}>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-outfit font-bold mb-6 leading-tight">
-                <TypingEffect 
-                  text="Transform Your" 
-                  speed={80}
-                  delay={1000}
+                <CyclingTypingEffect 
+                  texts={[
+                    "Transform Your Business",
+                    "Revolutionize Marketing", 
+                    "Boost Your Revenue",
+                    "Automate Success"
+                  ]}
+                  typingSpeed={40}
+                  deletingSpeed={25}
+                  pauseDuration={1200}
                 />
                 <br />
                 <GradientText gradient="primary" animate="shift" className="text-glow">
-                  <TypingEffect 
-                    text="Marketing with AI" 
-                    speed={100}
-                    delay={2500}
-                  />
+                  with AI Power
                 </GradientText>
               </h1>
             </ScrollReveal>
