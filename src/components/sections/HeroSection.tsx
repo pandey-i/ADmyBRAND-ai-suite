@@ -1,14 +1,19 @@
 import { Button } from "@/components/ui/enhanced-button"
 import { GradientText } from "@/components/ui/gradient-text"
 import { ScrollReveal } from "@/components/ui/scroll-reveal"
+import { TypingEffect } from "@/components/ui/typing-effect"
+import { StarryBackground } from "@/components/ui/starry-background"
 import { ArrowRight, Play, Star } from "lucide-react"
 import heroImage from "@/assets/hero-dashboard.jpg"
 
 export const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Starry Background */}
+      <StarryBackground />
+      
       {/* Animated Background */}
-      <div className="absolute inset-0 bg-gradient-mesh opacity-30" />
+      <div className="absolute inset-0 bg-gradient-mesh opacity-20" />
       <div className="absolute inset-0">
         <div className="absolute top-20 left-20 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-float" />
         <div className="absolute bottom-20 right-20 w-96 h-96 bg-secondary/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '1s' }} />
@@ -32,10 +37,18 @@ export const HeroSection = () => {
 
             <ScrollReveal direction="up" delay={400}>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-outfit font-bold mb-6 leading-tight">
-                Transform Your 
+                <TypingEffect 
+                  text="Transform Your" 
+                  speed={80}
+                  delay={1000}
+                />
                 <br />
                 <GradientText gradient="primary" animate="shift" className="text-glow">
-                  Marketing with AI
+                  <TypingEffect 
+                    text="Marketing with AI" 
+                    speed={100}
+                    delay={2500}
+                  />
                 </GradientText>
               </h1>
             </ScrollReveal>
