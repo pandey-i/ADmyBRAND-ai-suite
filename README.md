@@ -19,7 +19,39 @@ A modern, responsive web application showcasing ADmyBRAND AI Suite - an AI-power
 
 ## 📸 Screenshots
 
-> *Screenshots will be added after deployment to showcase the beautiful UI and interactive elements*
+### 🏠 Hero Section
+![Hero Section](./assets/screenshots/hero-section.png)
+*Main landing page featuring "Automate Success with AI Power" with interactive 3D elements and glowing orbs*
+
+### ⚡ Features Section
+![Features Section](./assets/screenshots/features-section.png)
+*Showcase of powerful AI marketing features including AI-Powered Insights, Precision Targeting, and Real-time Analytics*
+
+### 💰 Pricing Plans
+![Pricing Section](./assets/screenshots/pricing-section.png)
+*Transparent pricing with Starter, Professional, and Enterprise plans with 20% yearly savings*
+
+### 🧮 Interactive Pricing Calculator
+![Pricing Calculator](./assets/screenshots/pricing-calculator.png)
+*Custom pricing calculator allowing users to configure contacts, emails, and billing options*
+
+### 💬 Customer Testimonials
+![Testimonials](./assets/screenshots/testimonials.png)
+*Real customer success stories with 5-star ratings and proven ROI improvements*
+
+### 📞 Contact Form
+![Contact Form](./assets/screenshots/contact-form.png)
+*Get in touch form with modern glassmorphism design and starry background*
+
+### ❓ FAQ Section
+![FAQ Section](./assets/screenshots/faq-section.png)
+*Frequently asked questions with expandable accordion interface*
+
+### 🦶 Footer
+![Footer](./assets/screenshots/footer.png)
+*Comprehensive footer with company information, product links, and social media*
+
+> **💡 Tip**: Replace the image paths above with your actual screenshot URLs. You can upload images to GitHub Issues, Imgur, or store them in an `assets/screenshots/` folder in this repository.
 
 ## 🚀 Features
 
